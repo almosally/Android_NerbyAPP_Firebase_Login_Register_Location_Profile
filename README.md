@@ -21,22 +21,24 @@ Instrument testing
 -------
 
 **LogIn**
-![alt tag](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile\screenshot/.png?raw=true)
+![alt tag](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/login.png?raw=true)
 
 **Register**
-![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/Screenshot_1589204228.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/register.png?raw=true)
 
 **Profile**
-![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/Screenshot_1589202940.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/profile1.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/profile2.png?raw=true)
 
 **Edit Profile**
-![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/Screenshot_1589202940.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/editProile.png?raw=true)
 
 **Location**
-![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/Screenshot_1589202940.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/location1.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/location2.png?raw=true)
 
 **Notification**
-![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/Screenshot_1589202940.png?raw=true)
+![alt text](https://github.com/almosally/Android_NerbyAPP_Firebase_Login_Register_Location_Profile/blob/master/screenshot/nerbyNotification.png?raw=true)
 
 -------
 
