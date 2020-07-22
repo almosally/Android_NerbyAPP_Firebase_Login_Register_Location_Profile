@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="172dp"
+        android:layout_height="147dp"
+        android:contentDescription="TODO"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/applogo" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="340dp"
+        android:layout_height="271dp"
+        android:layout_marginTop="32dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.774"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6">
+
+        <EditText
+            android:id="@+id/regName"
+            android:layout_width="298dp"
+            android:layout_height="67dp"
+            android:backgroundTint="#F8F6F6"
+            android:ems="10"
+            android:foregroundGravity="center"
+            android:hint="@string/name"
+            android:inputType="textPersonName"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F6F5F5"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/regEmail"
+            android:layout_width="298dp"
+            android:layout_height="67dp"
+            android:autofillHints=""
+            android:backgroundTint="#F8F6F6"
+            android:ems="10"
+            android:hint="Email"
+            android:inputType="textEmailAddress"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F6F5F5"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/regMobile"
+            android:layout_width="298dp"
+            android:layout_height="67dp"
+            android:backgroundTint="#F8F6F6"
+            android:ems="10"
+            android:hint="@string/phone"
+            android:inputType="phone"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#F6F5F5"
+            tools:ignore="MissingConstraints" />
+
+        <EditText
+            android:id="@+id/regPassword"
+            android:layout_width="298dp"
+            android:layout_height="67dp"
+            android:autofillHints=""
+            android:backgroundTint="#FFFFFF"
+            android:ems="10"
+            android:hint="@string/paswword"
+            android:inputType="textPassword"
+            android:textColor="#FFFFFF"
+            android:textColorHint="#FFFFFF"
+            tools:ignore="MissingConstraints" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/regSingin"
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/signup_login_hint"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/signUpBtn"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="-1dp" />
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="370dp"
+        android:layout_height="54dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/login_button_bk"
+        android:text="Sign Up"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

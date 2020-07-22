@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/customize_snippet_style"
+    android:orientation="vertical"
+    android:paddingLeft="20dip"
+    android:paddingTop="7dip"
+    android:paddingRight="20dip"
+    android:paddingBottom="7dip">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/snippetUserImage"
+                    android:layout_width="65dip"
+                    android:layout_height="65dip"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="8dip"
+                    android:src="@drawable/default_image"
+                    tools:ignore="MissingConstraints" />
+
+                <ImageView
+                    android:id="@+id/userStatusOnline"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_online"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/snippetUserImage"
+                    app:layout_constraintEnd_toEndOf="@+id/snippetUserImage" />
+
+                <ImageView
+                    android:id="@+id/userStatusOffline"
+                    android:layout_width="20dp"
+                    android:layout_height="20dp"
+                    android:src="@drawable/ic_offline"
+                    android:visibility="invisible"
+                    app:layout_constraintBottom_toBottomOf="@+id/snippetUserImage"
+                    app:layout_constraintEnd_toEndOf="@+id/snippetUserImage" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:layout_marginLeft="2dip"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/snippetTitle"
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Title Name"
+                        android:textColor="#000000"
+                        android:textSize="12dip" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/ic_call" />
+
+                    <TextView
+                        android:id="@+id/snippetPhoneNumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="01234567890"
+                        android:textColor="#000000"
+                        android:textSize="10dip" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="25dip"
+                        android:layout_height="25dip"
+                        android:layout_marginLeft="5dip"
+                        android:background="@drawable/ic_black_email" />
+
+                    <TextView
+                        android:id="@+id/snippetEmileAddress"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="nerby@nerby.com"
+                        android:textColor="#000000"
+                        android:textSize="10dip" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/snippetChatButton"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_margin="3dip"
+            android:background="@drawable/bttn_snippet_style"
+            android:text="Start chat" />
+    </LinearLayout>
+
+</LinearLayout>

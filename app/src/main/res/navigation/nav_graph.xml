@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/profileActivity"
+    tools:ignore="UnusedNavigation">
+
+
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.fontys.android.andr2.activities.LoginActivity"
+        android:label="LoginActivity">
+        <action
+            android:id="@+id/action_loginActivity_to_registerActivity"
+            app:destination="@id/registerActivity" />
+        <action
+            android:id="@+id/action_loginActivity_to_profileActivity"
+            app:destination="@id/profileActivity" />
+    </activity>
+    <activity
+        android:id="@+id/profileActivity"
+        android:name="com.fontys.android.andr2.activities.ProfileActivity"
+        android:label="ProfileActivity">
+        <action
+            android:id="@+id/action_profileActivity_to_editProfileFragment"
+            app:destination="@id/editProfileFragment" />
+        <action
+            android:id="@+id/action_profileActivity_to_locationComponent"
+            app:destination="@id/locationComponent" />
+    </activity>
+    <activity
+        android:id="@+id/locationComponent"
+        android:name="com.fontys.android.andr2.activities.LocationComponent"
+        android:label="LocationComponent">
+        <action
+            android:id="@+id/action_locationComponent_to_profileActivity"
+            app:destination="@id/profileActivity" />
+    </activity>
+    <activity
+        android:id="@+id/registerActivity"
+        android:name="com.fontys.android.andr2.activities.RegisterActivity"
+        android:label="RegisterActivity">
+        <action
+            android:id="@+id/action_registerActivity_to_loginActivity"
+            app:destination="@id/loginActivity" />
+    </activity>
+    <fragment
+        android:id="@+id/editProfileFragment"
+        android:name="com.fontys.android.andr2.fragment.EditProfileFragment"
+        android:label="fragment_edit_profile"
+        tools:layout="@layout/fragment_edit_profile">
+        <action
+            android:id="@+id/action_editProfileFragment_to_profileActivity"
+            app:destination="@id/profileActivity" />
+    </fragment>
+
+</navigation>

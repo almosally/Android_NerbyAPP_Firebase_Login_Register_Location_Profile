@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#F1070317"
+    android:clickable="true"
+    tools:context=".fragment.EditProfileFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/edit_user_profile_pic"
+            android:layout_width="179dp"
+            android:layout_height="151dp"
+            android:layout_marginTop="40dp"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.196"
+            app:srcCompat="@drawable/ic_person_profile" />
+
+        <Button
+            android:id="@+id/upload_pic_btn"
+            android:layout_width="66dp"
+            android:layout_height="51dp"
+            android:background="@drawable/ic_edit_pen_foreground"
+            app:layout_constraintBottom_toBottomOf="@+id/edit_user_profile_pic"
+            app:layout_constraintEnd_toEndOf="@+id/edit_user_profile_pic"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/edit_user_profile_pic"
+            app:layout_constraintTop_toTopOf="@+id/edit_user_profile_pic"
+            app:layout_constraintVertical_bias="1.0" />
+
+        <TextView
+            android:id="@+id/textViewEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Email"
+            android:textColor="#F3EBEB"
+            app:layout_constraintBottom_toTopOf="@+id/tableLayout"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/edit_user_profile_pic"
+            app:layout_constraintVertical_bias="0.324" />
+
+        <TableLayout
+            android:id="@+id/tableLayout"
+            android:layout_width="400dp"
+            android:layout_height="282dp"
+            android:layout_marginBottom="100dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.454"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="51dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ic_person_profile" />
+
+                <EditText
+                    android:id="@+id/editUserName"
+                    android:layout_width="167dp"
+                    android:layout_height="47dp"
+                    android:backgroundTint="#F8F6F6"
+                    android:ems="10"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#F6F5F5" />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView2"
+                    android:layout_width="49dp"
+                    android:layout_height="match_parent"
+                    app:srcCompat="@drawable/ic_phone_logo_foreground" />
+
+                <EditText
+                    android:id="@+id/editPhoneNumber"
+                    android:layout_width="298dp"
+                    android:backgroundTint="#F8F6F6"
+                    android:ems="10"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#F6F5F5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="167dp">
+
+                <ImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:outlineAmbientShadowColor="#FFFFFF"
+                    android:outlineSpotShadowColor="#FAF5F5"
+                    app:srcCompat="@android:drawable/ic_menu_mylocation" />
+
+                <EditText
+                    android:id="@+id/editRange"
+                    android:layout_width="298dp"
+                    android:layout_height="47dp"
+                    android:backgroundTint="#F8F6F6"
+                    android:ems="10"
+                    android:singleLine="true"
+                    android:textColor="#FFFFFF"
+                    android:textColorHint="#F6F5F5" />
+            </TableRow>
+
+            <TableRow
+                android:layout_width="390dp"
+                android:layout_height="153dp">
+
+            </TableRow>
+        </TableLayout>
+
+        <Button
+            android:id="@+id/return_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Return"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/tableLayout"
+            app:layout_constraintVertical_bias="0.719" />
+
+        <Button
+            android:id="@+id/save_edit_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Save change"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.926"
+            app:layout_constraintStart_toEndOf="@+id/return_btn"
+            app:layout_constraintTop_toTopOf="@+id/return_btn" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</FrameLayout>

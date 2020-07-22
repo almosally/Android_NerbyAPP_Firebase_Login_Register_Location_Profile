@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "786548847382",
+    "firebase_url": "https://andr2-97a64.firebaseio.com",
+    "project_id": "andr2-97a64",
+    "storage_bucket": "andr2-97a64.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:786548847382:android:761883501710f4e9aa5637",
+        "android_client_info": {
+          "package_name": "com.fontys.android.andr2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "786548847382-a69tn3bsjthodf894ep3b8jodsjcqh5h.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDBXAUJD87qlMuX5tZ6bb2wetgZN3Ywx_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "786548847382-a69tn3bsjthodf894ep3b8jodsjcqh5h.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

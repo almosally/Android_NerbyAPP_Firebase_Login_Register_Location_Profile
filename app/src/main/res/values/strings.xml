@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">nErBy</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="textview">TextView</string>
+    <string name="register">REGISTER</string>
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+    <string name="signup_login_hint">Already have an account? Sign In</string>
+    <string name="login_signup_hint">Don\'t have an account? Sign Up</string>
+    <string name="input_error_name">name required</string>
+    <string name="input_error_email">email required</string>
+    <string name="input_error_password">password required</string>
+    <string name="input_error_phone">phone required</string>
+    <string name="input_error_password_length">password should be atleast 6 characters long</string>
+    <string name="input_error_phone_invalid">enter a valid phone number</string>
+    <string name="registration_success">Registered Successfully</string>
+    <string name="input_error_email_invalid">enter a valid email</string>
+    <string name="paswword">Paswword</string>
+    <string name="phone">Phone</string>
+    <string name="name">Name</string>
+    <string name="title_activity_location_component">Map</string>
+
+    <string name="action_profile">Profile</string>
+    <string name="action_map">Map</string>
+    <string name="edit_profile">Edit Profile</string>
+
+    <string name="action_contact">About us</string>
+    <string name="action_sign_out">Sign out</string>
+    <string name="project_by">"This project made with love by:\n Ali \n Kheir \n Lama \n Obaida"</string>
+    <string name="action_setting">Account Setting</string>
+    <string name="profile">Profile</string>
+
+</resources>

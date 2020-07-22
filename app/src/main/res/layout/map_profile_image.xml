@@ -1,0 +1,37 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    app:layout_constraintBottom_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent">
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/mapProfileImage"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:src="@drawable/default_image" />
+
+    <ImageView
+        android:id="@+id/userStatusOnline"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignEnd="@+id/mapProfileImage"
+        android:layout_alignBottom="@+id/mapProfileImage"
+        android:src="@drawable/ic_online"
+        android:visibility="invisible"
+        android:contentDescription="TODO" />
+
+    <ImageView
+        android:id="@+id/userStatusOffline"
+        android:layout_width="15dp"
+        android:layout_height="15dp"
+        android:layout_alignEnd="@+id/mapProfileImage"
+        android:layout_alignBottom="@+id/mapProfileImage"
+        android:src="@drawable/ic_offline"
+        android:visibility="invisible"
+        android:contentDescription="TODO" />
+
+</RelativeLayout>
